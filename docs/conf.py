@@ -4,8 +4,8 @@ import sys
 sys.path.insert(0, os.path.abspath('.'))
 
 # Project info
-project = 'HRA Blocks'
-author = 'Dana Cora'
+project = 'New Desktop Gold'
+author = 'Alison Bremner'
 release = '1.0'
 
 # General config
@@ -20,5 +20,5 @@ html_static_path = ['_static']
 
 # ✅ Google Verification (WORKING METHOD)
 html_context = {
-    "<meta name="google-site-verification" content="c6Qrtpo9mGReY09PT1jUg4zAyx0IN8MgDSjPUbgyRww" />'
+    "<meta name="google-site-verification" content="c6Qrtpo9mGReY09PT1jUg4zAyx0IN8MgDSjPUbgyRww" />" />'
 }
