@@ -4,8 +4,8 @@ import sys
 sys.path.insert(0, os.path.abspath('.'))
 
 # Project info
-project = 'New Desktop Gold'
-author = 'Alison Bremner'
+project = 'HRB Bocks'
+author = 'James Hammer'
 release = '1.0'
 
 # General config
