@@ -4,12 +4,14 @@ import sys
 sys.path.insert(0, os.path.abspath('.'))
 
 # Project info
-project = 'HRB Blocs'
-author = 'James Hammer'
+project = 'HRA Blocks'
+author = 'Dana Cora'
 release = '1.0'
 
-# General config
-extensions = []
+# Extensions
+extensions = [
+    "sphinx_rtd_theme",
+]
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -18,7 +20,7 @@ exclude_patterns = []
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
-# ✅ Google Verification (WORKING METHOD)
-html_context = {
-    "<meta name="google-site-verification" content="xMvhEb7ayr2oSB67CmQJ-XqQ7Pati-Stu9KHRdN-J6c" />" />'
+# ✅ Google Verification (FIXED)
+html_meta = {
+    "google-site-verification": "c6Qrtpo9mGReY09PT1jUg4zAyx0IN8MgDSjPUbgyRww"
 }
