@@ -4,7 +4,7 @@ import sys
 sys.path.insert(0, os.path.abspath('.'))
 
 # Project info
-project = 'HRB Bocks'
+project = 'HRB Blocs'
 author = 'James Hammer'
 release = '1.0'
 
@@ -20,5 +20,5 @@ html_static_path = ['_static']
 
 # ✅ Google Verification (WORKING METHOD)
 html_context = {
-    "<meta name="google-site-verification" content="c6Qrtpo9mGReY09PT1jUg4zAyx0IN8MgDSjPUbgyRww" />" />'
+    "<meta name="google-site-verification" content="xMvhEb7ayr2oSB67CmQJ-XqQ7Pati-Stu9KHRdN-J6c" />" />'
 }
